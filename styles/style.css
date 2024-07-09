@@ -178,6 +178,7 @@ main{
     height:225px;
 }
 /* ------development section ends here ---------------------------------*/
+
 /*------ Inspiration section start here -------------------------------- */
 .inspirstion{
     width:1240px;
@@ -220,6 +221,75 @@ main{
    border-radius: 16px;
 }
 /*------ Inspiration section ends here -------------------------------- */
+
+/*------ Target section start here -------------------------------- */
+.target{
+    width:1240px;
+    height:460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.target-text{
+    width:850px;
+    height:150px;
+}
+.target-text h1{
+    color: rgb(13, 19, 33);    
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom:24px;
+    text-align: center;
+}
+.target-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom:50px;
+}
+.target-card{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+.target-card-outer{
+    width:370px;
+    height:300px;
+    padding:40px;
+    border-radius: 16px;
+}
+#target-card-1{
+    background: rgba(255, 76, 30, 0.05);;
+}
+#target-card-2{
+    background: rgba(0, 76, 232, 0.05)
+}
+#target-card-3{
+    background: rgba(255, 223, 0, 0.05);
+}
+.target-card-inner{
+    width:285px;
+    height:220px;
+}
+.target-card-inner img{
+    margin-bottom: 24px;
+}
+.target-card-inner h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.target-card-inner p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+/*------ Target section ends here -------------------------------- */
 
 
 /* ------main section ends here ---------------------------------*/
