@@ -11,6 +11,9 @@ body{
     font-family: "Azeret Mono", monospace;
     background-color:#FFFFFF;
 }
+p{
+    opacity: 0.8;
+}
 /*------- reset code ends here--------------------- */
 
 /*------ header and banner section start here--------------------- */
@@ -73,7 +76,6 @@ nav h1{
 .banner-card p{
     font-size: 16px;
     color:rgb(13, 19, 33);
-    opacity: 0.8;
     text-align: center;
     margin-bottom: 30px;
     line-height: 30px;
@@ -133,7 +135,6 @@ main{
     font-weight: 400;
     line-height: 26px;
     color: rgb(13, 19, 33);
-    opacity:0.8;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -288,6 +289,87 @@ main{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 25px;
+}
+.target-card-inner h4{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.nxt-target{
+    width:1240px;
+    height:865px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 115px;
+}
+.nxt-target-text{
+    width:850px;
+    height:115px;
+}
+.nxt-target-text h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.nxt-target-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom:50px;
+}
+.nxt-target-card{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.nxt-target-card-outer{
+    width:1280px;
+    height:220px;
+    padding:40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.nxt-target-inner{
+    width:1060px;
+    height:140px;
+    display: flex;
+    justify-content: space-between;
+}
+.nxt-target-inner-img img{
+    width:95px;
+    height:85px;
+    margin-right: 25px;
+}
+.nxt-target-inner-text{
+    width:940px;
+    height:95px;
+}
+.nxt-target-inner-text h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.nxt-target-inner-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.nxt-target-inner-text h4{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
 }
 /*------ Target section ends here -------------------------------- */
 
