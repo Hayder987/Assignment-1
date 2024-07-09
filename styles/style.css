@@ -89,6 +89,9 @@ nav h1{
     margin-bottom: 50px;
     cursor: pointer;
 }
+/*------ header and banner section ends here--------------------- */
+
+/* ------main section start here ---------------------------------*/
 main{
     display: flex;
     justify-content: center;
@@ -96,6 +99,7 @@ main{
     flex-direction: column;
     padding:70px 150px;
 }
+/* ------development section start here ---------------------------------*/
 .development{
     width:1240px;
     height:1400px;
@@ -108,9 +112,76 @@ main{
 .development-content{
     width:1040px;
     height: 1310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-/*------ header and banner section ends here--------------------- */
-
-/* ------main section start here ---------------------------------*/
+.development-content-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.development-content-text h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.development-content-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+    opacity:0.8;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.dev-img-text{
+    width:950px;
+    height:340px;
+    display: flex;
+    justify-content: space-between;
+    padding:45px;
+    border-radius: 15px;
+}
+#dev-img-text-1{
+    background: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 251, 251));
+}
+#dev-img-text-2{
+    background: linear-gradient(to left, rgb(255, 255, 255) , rgb(255, 251, 251));
+}
+#dev-img-text-3{
+    background: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 251, 251));
+}
+.dev-text{
+    width:475px;
+    height:220px;
+}
+.dev-text h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom:20px;
+}
+.dev-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.dev-btn{
+    width:150px;
+    height:50px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 600;
+}
+.dev-img{
+    width:260px;
+    height:225px;
+}
+/* ------development section ends here ---------------------------------*/
 
 /* ------main section ends here ---------------------------------*/
