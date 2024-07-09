@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 /* ------font-family: "Azeret Mono", monospace; --------*/
 
-/*------- reset code start here--------------------- */
+/*------- reset & common code start here--------------------- */
 *{
     margin:0;
     padding:0;
@@ -12,9 +12,9 @@ body{
     background-color:#FFFFFF;
 }
 p{
-    opacity: 0.8;
+    opacity: 0.7;
 }
-/*------- reset code ends here--------------------- */
+/*------- reset & common code ends here--------------------- */
 
 /*------ header and banner section start here--------------------- */
 nav{
@@ -105,11 +105,12 @@ main{
 .development{
     width:1240px;
     height:1400px;
-    background-color:rgb(255, 251, 251);
+    background: rgba(13, 19, 33, 0.02);
     display: flex;
     justify-content: center;
     align-items: center;
     padding:70px 80px;
+    border-radius: 16px;
 }
 .development-content{
     width:1040px;
@@ -145,10 +146,10 @@ main{
     justify-content: space-between;
     padding:45px;
     border-radius: 15px;
-    background: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 251, 251));
+    background: linear-gradient(to right, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 #dev-img-text-2{
-    background: linear-gradient(to left, rgb(255, 255, 255) , rgb(255, 251, 251));
+    background: linear-gradient(to left, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .dev-text{
     width:475px;
@@ -331,7 +332,7 @@ main{
     margin-top: 40px;
 }
 .nxt-target-card-outer{
-    width:1280px;
+    width:1240px;
     height:220px;
     padding:40px;
     border: 1px solid rgba(13, 19, 33, 0.15);
@@ -372,6 +373,58 @@ main{
     text-decoration: underline;
 }
 /*------ Target section ends here -------------------------------- */
-
+/*--------- Contact section start here ---------------------------*/
+.contact{
+    width:1240px;
+    height:320px;
+    margin-top: 50px;
+    background: linear-gradient(rgba(8, 8, 8, 0.541),rgba(8, 8, 8, 0.616),rgba(7, 7, 7, 0.493)),url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    padding:64px 48px;
+    margin-bottom: 80px;
+}
+.contact-content{
+    width:1045px;
+    height:190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.contact-content p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.contact-form input[type="text"]{
+    width:550px;
+    height:60px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 17px;
+}
+.contact-form input[type="submit"]{
+    width:120px;
+    height:60px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+/*--------- Contact section ends here ---------------------------*/
 
 /* ------main section ends here ---------------------------------*/
