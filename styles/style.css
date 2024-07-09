@@ -126,7 +126,7 @@ main{
     text-align: center;
     font-size: 32px;
     font-weight: 800;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 .development-content-text p{
     font-size: 16px;
@@ -135,7 +135,7 @@ main{
     color: rgb(13, 19, 33);
     opacity:0.8;
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 50px;
 }
 .dev-img-text{
     width:950px;
@@ -144,15 +144,10 @@ main{
     justify-content: space-between;
     padding:45px;
     border-radius: 15px;
-}
-#dev-img-text-1{
     background: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 251, 251));
 }
 #dev-img-text-2{
     background: linear-gradient(to left, rgb(255, 255, 255) , rgb(255, 251, 251));
-}
-#dev-img-text-3{
-    background: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 251, 251));
 }
 .dev-text{
     width:475px;
