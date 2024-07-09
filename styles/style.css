@@ -1,3 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 /* ------font-family: "Azeret Mono", monospace; --------*/
 
+/*------- reset code start here--------------------- */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+    background-color:#FFFFFF;
+}
+/*------- reset code ends here--------------------- */
+
+/*------ header and banner section start here--------------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.header-btn{
+    padding:5px;
+    width: 200px;
+    height: 50px;
+    padding: 10px 15px;
+    text-align: center;
+    margin-top:55px;
+    margin-right:190px;
+    font-size: 18px;
+    border: 1px solid rgb(14, 20, 36);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.banner{
+    width:100%;
+    height:680px;
+    background:url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 215px 20px 215px;
+
+}
+.banner-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner-card img{
+    width:240px;
+    height: 240px;
+    margin: 30px 0;
+}
+.banner-card h1{
+    font-size: 45px;
+    font-weight: 800;  
+    text-align: center;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+.banner-card p{
+    font-size: 16px;
+    color:rgb(13, 19, 33);
+    opacity: 0.8;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.banner-btn{
+    width:210px;
+    height:70px;
+    background-color: rgb(13, 19, 33);
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:70px 150px;
+}
+.development{
+    width:1240px;
+    height:1400px;
+    background-color:rgb(255, 251, 251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:70px 80px;
+}
+.development-content{
+    width:1040px;
+    height: 1310px;
+}
+/*------ header and banner section ends here--------------------- */
+
+/* ------main section start here ---------------------------------*/
+
+/* ------main section ends here ---------------------------------*/
